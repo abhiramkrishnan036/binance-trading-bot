@@ -1,0 +1,19 @@
+2026-02-26 10:56:32,275 - INFO - Binance Demo Futures client initialized successfully
+2026-02-26 10:56:32,277 - INFO - Order Request: BTCUSDT BUY MARKET Qty=0.001 Price=None
+2026-02-26 10:56:32,278 - INFO - Placing MARKET order: BUY 0.001 BTCUSDT
+2026-02-26 10:56:33,330 - ERROR - Market order failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-26 10:56:33,330 - ERROR - Order failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-26 10:57:29,922 - INFO - Binance Demo Futures client initialized successfully
+2026-02-26 10:57:29,923 - INFO - Order Request: BTCUSDT BUY MARKET Qty=0.002 Price=None
+2026-02-26 10:57:29,923 - INFO - Placing MARKET order: BUY 0.002 BTCUSDT
+2026-02-26 10:57:30,601 - ERROR - Market order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-26 10:57:30,601 - ERROR - Order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-26 10:57:41,537 - INFO - Binance Demo Futures client initialized successfully
+2026-02-26 10:57:41,538 - INFO - Order Request: BTCUSDT BUY MARKET Qty=0.002 Price=None
+2026-02-26 10:57:41,538 - INFO - Placing MARKET order: BUY 0.002 BTCUSDT
+2026-02-26 10:57:42,352 - ERROR - Market order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-26 10:57:42,353 - ERROR - Order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-26 11:00:01,411 - INFO - Binance Demo Futures client initialized successfully
+2026-02-26 11:00:01,412 - INFO - Order Request: BTCUSDT BUY MARKET Qty=0.002 Price=None
+2026-02-26 11:00:01,412 - INFO - Placing MARKET order: BUY 0.002 BTCUSDT
+2026-02-26 11:00:02,112 - INFO - Order Response: {'orderId': 12548766546, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5f3249a58459fa9e85720', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772083802047}
