@@ -54,3 +54,65 @@ binance-trading-bot/
 ## Installation
 
 Clone the repository:
+
+Install dependencies:
+
+---
+
+## Environment Setup
+API_KEY=your_api_key_here
+API_SECRET=your_api_secret_here
+BASE_URL=https://demo-fapi.binance.com
+
+---
+
+## Usage
+
+Example Market Order:
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
+
+Example Limit Order:
+python cli.py --symbol BTCUSDT --side BUY --type LIMIT --quantity 0.002 --price 60000
+
+---
+
+## Example Output
+Order placed successfully!
+Order ID: 123456789
+Status: NEW
+Executed Quantity: 0.000
+Average Price: 0.00
+logs/trading_bot.log
+
+
+Logs include:
+
+- Order requests
+- API responses
+- Errors
+- System events
+
+---
+
+## Skills Demonstrated
+
+- API Integration
+- Python CLI Development
+- Error Handling
+- Logging Systems
+- Environment Variable Security
+- Modular Software Design
+- Real-world trading system architecture
+
+---
+
+## Disclaimer
+
+This bot uses Binance Futures Demo environment and does not trade real funds.
+
+---
+
+## Author
+
+Abhiram Krishnan  
+GitHub: https://github.com/abhiramkrishnan036
